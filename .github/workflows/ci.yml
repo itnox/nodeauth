@@ -6,4 +6,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run Server
-      run: npm install && npm start
+      script:
+        npm install && npm start
